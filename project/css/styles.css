@@ -1,0 +1,94 @@
+/* General Reset */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #1f78b4;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #222;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Drone List */
+.drone-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.drone-card {
+    background: #f0f4f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    width: 250px;
+}
+
+.drone-card img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.drone-card h3 {
+    margin: 10px 0;
+}
+
+.drone-card .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #1f78b4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.drone-card .btn:hover {
+    background: #155d82;
+}
+
+/* Mission Details */
+.mission-details img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.mission-details h2 {
+    margin-bottom: 15px;
+}
+
+.error {
+    color: #d9534f;
+    font-weight: bold;
+}
